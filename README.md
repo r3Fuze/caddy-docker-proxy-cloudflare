@@ -10,5 +10,6 @@ This is mostly for personal use, and it does not update automatically when new r
 1. Edit `CADDY_VERSION` in `Dockerfile`
 2. `git add Dockerfile`
 3. `git tag -a <version> -m "Release <version>"`
-4. `git push`
-5. `git push --tags`
+4. `git commit -m "feat: caddy version <version>"`
+5. `git push`
+6. `git push --tags`
